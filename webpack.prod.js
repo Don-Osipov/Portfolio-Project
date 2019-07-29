@@ -37,6 +37,11 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader'
+      },
+      {
         test: /\.scss$/,
         use: [
           MiniCssExtractPlugin.loader, // 3. Extract css into files

@@ -1,7 +1,7 @@
 {
-  "name": "forkify",
+  "name": "portfolio-shamay",
   "version": "1.0.0",
-  "description": "forkify project  ",
+  "description": "Portfolio landing page",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
@@ -9,7 +9,15 @@
   },
   "author": "Don Osipov",
   "license": "ISC",
+  "browserslist": "> 1%, not dead",
   "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
     "file-loader": "^4.1.0",
     "html-loader": "^0.5.5",
@@ -25,6 +33,7 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.4.4",
     "clean-webpack-plugin": "^3.0.0"
   }
 }
