@@ -1,6 +1,7 @@
 // @import "../abstracts/variables"
 
 .header {
+  position: relative;
   color: #fff;
   &__name {
     font-size: 5rem;
@@ -8,6 +9,21 @@
 
   &__info {
     font-size: 2rem;
+  }
+
+  &__design-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__design {
+    background-color: #fff;
+    height: 23rem;
+    width: 23rem;
+    border-radius: 50%;
+    display: inline-block;
   }
 }
 

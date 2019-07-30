@@ -1,6 +1,7 @@
 // @import "../abstracts/variables";
 
 .projects {
+  grid-row: 2 / 3;
   align-self: center;
   &__list {
   }
@@ -36,4 +37,8 @@
     color: $color-primary;
     text-decoration: none;
   }
+}
+
+.placeholder {
+  grid-row: 3 / 4;
 }
