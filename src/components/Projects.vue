@@ -1,15 +1,17 @@
 <template>
   <nav class="projects">
     <ul class="projects__list">
-      <li class="projects__items">
-        <a href="#" class="projects__links">AI-driven neuroscience research</a>
-      </li>
-      <li class="projects__items">
-        <a href="#" class="projects__links">Biofield devices</a>
-      </li>
-      <li class="projects__items">
-        <a href="#" class="projects__links"> AI Focus system</a>
-      </li>
+      <router-link
+        class="projects__items test"
+        to="/projects/ai-driven-neuroscience-research"
+        >AI-driven neuroscience research</router-link
+      >
+      <router-link class="projects__items" to="/projects/biofield-devices"
+        >Biofield Devices</router-link
+      >
+      <router-link class="projects__items" to="/projects/ai-focus-system"
+        >AI Focus system</router-link
+      >
     </ul>
   </nav>
 </template>
@@ -22,16 +24,19 @@ export default {};
 .projects
   grid-row: 2 / 3
   align-self: center
+
   &__list
+    line-height: 1
+
 
   &__items
     font-size: 3.5rem
     font-weight: 500
     list-style: none
-    line-height: 1.7
-
-  &__links:link,
-  &__links:visited
     color: $c-p
     text-decoration: none
+    display: block
+
+    &:not(:last-child)
+      margin-bottom: 2.5rem
 </style>

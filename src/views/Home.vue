@@ -38,5 +38,5 @@ body
   font-family: Quicksand, sans-serif
 
 .page-padding--primary
-  padding: 6.5rem
+  padding: 5.5rem
 </style>

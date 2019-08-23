@@ -14,4 +14,7 @@ export default {
 #app
   height: 100vh
   display: flex
+
+.nav__wrapper
+  width: 100%
 </style>

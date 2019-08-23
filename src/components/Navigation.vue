@@ -4,9 +4,9 @@
       <li class="navigation__items">
         <a href="#" class="navigation__links">Projects</a>
       </li>
-      <li class="navigation__items">
-        <a href="#" class="navigation__links">About Me</a>
-      </li>
+      <router-link class="navigation__items" to="/about-me"
+        >About Me</router-link
+      >
     </ul>
   </nav>
 </template>
@@ -27,7 +27,8 @@ export default {};
   &__items
     font-size: 2.5rem
     list-style: none
-
+    color: $c-p
+    text-decoration: none
 
   &__links:link,
   &__links:visited
