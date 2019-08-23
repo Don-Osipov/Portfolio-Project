@@ -1,5 +1,11 @@
 <template>
   <div class="icons">
+    <a
+      href="https://drive.google.com/uc?export=download&id=1VvOlN1ugx0XZWaT6VAX1yKSbL_Z7JYM_"
+      class="resume"
+      download="Shamay Agaron Resume"
+      >Resume</a
+    >
     <svg
       class="icon"
       xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +21,7 @@
         id="anchor"
         xlink:href="https://www.linkedin.com/in/shamay/"
         xmlns:xlink="http://www.w3.org/1999/xlink"
-        target="_top"
+        target="_blank"
       >
         <rect x="0" y="0" width="100%" height="100%" fill-opacity="0" />
       </a>
@@ -35,7 +41,7 @@
         id="anchor"
         xlink:href="https://github.com/shamay"
         xmlns:xlink="http://www.w3.org/1999/xlink"
-        target="_top"
+        target="_blank"
       >
         <rect x="0" y="0" width="100%" height="100%" fill-opacity="0" />
       </a>
@@ -62,6 +68,8 @@ export default {};
 <style lang="sass" scoped>
 .icon
   fill: $c-p
+  height: 24px
+  width: 24px
 
   &:not(:first-child)
     margin-left: 5px
@@ -70,4 +78,12 @@ export default {};
   position: absolute
   top: 10px
   right: 10px
+  display: flex
+  align-items: center
+
+.resume
+  text-decoration: none
+  color: $c-p
+  font-weight: 600
+  margin-right: 2px
 </style>
