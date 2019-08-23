@@ -3,14 +3,17 @@
     <ul class="projects__list">
       <router-link
         class="projects__items test"
-        to="/projects/ai-driven-neuroscience-research"
-        >AI-driven neuroscience research</router-link
+        to="/projects/cognitive-control-research"
+        >Cognitive Control Research</router-link
       >
-      <router-link class="projects__items" to="/projects/biofield-devices"
-        >Biofield Devices</router-link
+      <router-link class="projects__items" to="/projects/lambent-data"
+        >Lambent Data</router-link
       >
       <router-link class="projects__items" to="/projects/ai-focus-system"
-        >AI Focus system</router-link
+        >AI Focus System</router-link
+      >
+      <router-link class="projects__items" to="/projects/design-thinking-health"
+        >Design Thinking Health</router-link
       >
     </ul>
   </nav>
@@ -38,5 +41,19 @@ export default {};
     display: block
 
     &:not(:last-child)
-      margin-bottom: 2.5rem
+      margin-bottom: 2.6rem
+
+    // &::before
+    //   margin-right: 10px
+    //   content: '['
+    //   transform: translateX(20px)
+
+    // &::after
+    //   margin-left: 10px
+    //   content: ']'
+    //   transform: translateX(-20px)
+
+    // &::before, &::after
+    //   display: inline-block
+    //   transition: transform 0.3s, opacity 0.2s
 </style>
