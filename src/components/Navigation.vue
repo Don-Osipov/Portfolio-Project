@@ -1,5 +1,6 @@
 <template>
   <nav class="navigation">
+    <Icons />
     <ul class="navigation__list">
       <li class="navigation__items">
         <a href="#" class="navigation__links">Projects</a>
@@ -12,7 +13,13 @@
 </template>
 
 <script>
-export default {};
+import Icons from '../components/Icons';
+
+export default {
+  components: {
+    Icons
+  }
+};
 </script>
 
 <style lang="sass" scoped>

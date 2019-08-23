@@ -1,6 +1,7 @@
 <template>
   <section class="nav__wrapper">
     <DropDownNavigation></DropDownNavigation>
+    <Icons />
   </section>
 </template>
 
@@ -14,4 +15,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="sass" scoped></style>

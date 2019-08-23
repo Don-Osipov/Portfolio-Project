@@ -1,5 +1,6 @@
 <template>
   <nav class="navigation">
+    <Icons />
     <ul class="navigation__list">
       <router-link class="navigation__items" to="/">Shamay Agaron</router-link>
       <div class="flex-wrapper">
@@ -16,7 +17,13 @@
 </template>
 
 <script>
-export default {};
+import Icons from '../components/Icons';
+
+export default {
+  components: {
+    Icons
+  }
+};
 </script>
 
 <style lang="sass" scoped>
@@ -25,7 +32,8 @@ export default {};
   align-self: start
   display: block
   margin-top: 5.5rem
-  padding: 0 5.5rem
+  margin-right: 5.5rem
+  margin-left: 5.5rem
 
   &__list
     display: grid
@@ -45,4 +53,5 @@ export default {};
 .flex-wrapper
   display: flex
   justify-content: space-around
+  margin-left: 5.5rem
 </style>
