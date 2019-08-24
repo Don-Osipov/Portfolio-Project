@@ -1,19 +1,18 @@
 <template>
-  <section class="nav__wrapper">
+  <div class="nav__wrapper">
     <DropDownNavigation></DropDownNavigation>
-    <Icons />
-    <Contact></Contact>
-  </section>
+    <AboutMeText></AboutMeText>
+  </div>
 </template>
 
 <script>
 import DropDownNavigation from '../components/DropDownNavigation';
+import AboutMeText from '../components/AboutMe-Text';
 import { log } from 'util';
-import Contact from '../components/Contact';
 export default {
   components: {
     DropDownNavigation,
-    Contact
+    AboutMeText
   }
 };
 </script>
