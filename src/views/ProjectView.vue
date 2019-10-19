@@ -1,18 +1,32 @@
 <template>
-  <div class="nav__wrapper">
+  <div class="projectPage__wrapper">
     <DropDownNavigation></DropDownNavigation>
-    <section>
+    <section class="content">
       <div class="rightside">
-        <h1>{{ title }}</h1>
+        <div class="landing">
+          <h1 class="title">{{ title }}</h1>
+          <h2 class="summary">
+            This is a project that does this and that and this and that and this
+            and that
+          </h2>
+          <h3 class="role">
+            My role:
+            <p class="role__content">
+              I was the sole creator and was in charge of pooping
+            </p>
+          </h3>
+        </div>
+        <div class="info"></div>
       </div>
       <div class="leftside">
-        <h3 class="filler">THIS SIDE IS FOR PICS AND STUFF</h3>
-        <h3 class="filler">THIS SIDE IS FOR PICS AND STUFF</h3>
-        <h3 class="filler">THIS SIDE IS FOR PICS AND STUFF</h3>
-        <h3 class="filler">THIS SIDE IS FOR PICS AND STUFF</h3>
-        <h3 class="filler">THIS SIDE IS FOR PICS AND STUFF</h3>
-        <h3 class="filler">THIS SIDE IS FOR PICS AND STUFF</h3>
-        <h3 class="filler">THIS SIDE IS FOR PICS AND STUFF</h3>
+        <div class="landing">
+          <img
+            class="pic1 pic"
+            src="../assets/final.png"
+            alt="the best image"
+          />
+        </div>
+        <div class="info"></div>
       </div>
     </section>
   </div>
@@ -46,20 +60,51 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-section
-  height: 100%
+
+.projectPage__wrapper
+  width: 100%
+  height: 95vh
+
+.content
+  // height: 100%
   display: grid
   grid-template-columns: 3fr 2fr
   margin: 4rem
   margin-left: 8.5rem
   margin-top: 6rem
 
-h1
-  color: $c-p
-  font-size: 3rem
-  margin-bottom: 1rem
+.title
+  color: black
+  font-size: 6rem
+  margin-bottom: .9rem
 
+.summary
+  font-size: 2.5rem
+  width: 70%
+  padding-left: 2.5rem
+  color: $c-s
+  font-weight: normal
 
-.filler
-  margin-top: 8rem
+.role
+  font-size: 2.5rem
+  padding-left: 2.5rem
+  padding-top: 2rem
+  color: $c-t
+
+  &__content
+    font-size: 2rem
+    color: $c-s
+    font-weight: normal
+.pic1
+  height: 285px
+  width: 400px
+
+.landing
+  height: 80%
+
+//TESTING
+.rightside
+  // background-color: pink
+.leftside
+  // background-color: skyblue
 </style>

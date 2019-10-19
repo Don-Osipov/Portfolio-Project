@@ -32,8 +32,8 @@ export default {
   align-self: start
   display: block
   margin-top: 5.5rem
-  margin-right: 5.5rem
-  margin-left: 5.5rem
+  margin-right: 4%
+  margin-left: 4%
 
   &__list
     display: grid

@@ -13,5 +13,5 @@ export default new Router({
     { path: '/about-me', component: AboutMe },
     { path: '*', component: Home }
   ],
-  mode: 'history'
+  mode: 'hash'
 });

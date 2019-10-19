@@ -3,7 +3,7 @@
     <div class="heading">
       <h1 class="header__name">Shamay Agaron</h1>
       <p class="header__info">
-        Lorem ipsum dolor sit amet consectetur.
+        This site is under construction.
       </p>
     </div>
     <div class="header__design-wrapper">

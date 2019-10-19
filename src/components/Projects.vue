@@ -1,7 +1,7 @@
 <template>
   <nav class="projects">
     <ul class="projects__list">
-      <router-link
+      <!-- <router-link
         class="projects__items test"
         to="/projects/cognitive-control-research"
         >Cognitive Control Research</router-link
@@ -14,7 +14,11 @@
       >
       <router-link class="projects__items" to="/projects/design-thinking-health"
         >Design Thinking Health</router-link
-      >
+      > -->
+      <a href="#" class="projects__items">Cognitive Control Research</a>
+      <a href="#" class="projects__items">Lambent Data</a>
+      <a href="#" class="projects__items">AI Focus System</a>
+      <a href="#" class="projects__items">Design Thinking Health</a>
     </ul>
   </nav>
 </template>

@@ -5,9 +5,13 @@
       <li class="navigation__items">
         <a href="#" class="navigation__links">Projects</a>
       </li>
-      <router-link class="navigation__items" to="/about-me"
+      <li class="navigation__items">
+        <a href="https://blog.shamay.com" class="navigation__links">Blog</a>
+      </li>
+      <!-- <router-link class="navigation__items" to="/about-me"
         >About Me</router-link
-      >
+      > -->
+      <a href="#" class="navigation__items">About Me</a>
     </ul>
   </nav>
 </template>
