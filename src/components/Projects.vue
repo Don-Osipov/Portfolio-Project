@@ -9,10 +9,10 @@
       <router-link class="projects__items" to="/projects/lambent-data"
         >Lambent Data</router-link
       >
-      <router-link class="projects__items" to="/projects/ai-focus-system"
+      <router-link class="projects__items" to="/projects/ai-focus-assistant"
         >AI Focus System</router-link
       >
-      <router-link class="projects__items" to="/projects/design-thinking-health"
+      <router-link class="projects__items" to="/projects/health-design-thinking"
         >Design Thinking Health</router-link
       > -->
       <a href="#" class="projects__items">Cognitive Control Research</a>
